@@ -42,3 +42,19 @@ let customers = [
        
 
     console.log(customers)
+
+    function calculateTax () 
+    {
+        return order.amount * taxrate
+    };
+let order = {
+            orderId: 12345,
+            customerName: "Jannet Holmes",
+            amount: 700
+        };
+let taxrate = .10
+    
+orderTax = calculateTax()
+console.log(order)
+console.log(orderTax)
+
