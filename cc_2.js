@@ -17,3 +17,28 @@ let employee = {
 employee.department = "Sales";
 employee.postion =  "External Sales Manager";
 console.log(employee);
+
+let customers = [
+    {
+        name: "Helga",
+        email: "helga@hotmail.com",
+        purchaseAmount:35
+    },
+    {   
+        name: "John",
+        email: "john@hotmail",
+        purchaseAmount: 42
+    },
+    {   
+        name: "jake",
+        email:"jake@hotmail",
+        purchaseAmount: 47
+    },
+    ]
+    customers.push( {
+        name: "David",
+        email: "David@hotmail",
+        purchaseAmount: 37});
+       
+
+    console.log(customers)
